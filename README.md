@@ -14,3 +14,5 @@
 ### obs
 
 - Esse repositorio será em uma ou mais linguas diferentes, além de melhorar minha lógica com python, pretendo praticar meu japonês/inglês documentando o projetos refeitos
+
+-> [日本](./READMEJP.md)
