@@ -8,8 +8,8 @@
 
 ## Tecnologias usadas
 
-- ![python](./img/icons8-git-50.png) python
-- ![git](./img/icons8-python-50.png) GIT
+- ![git](./img/icons8-git-50.png) GIT
+- ![py](./img/icons8-python-50.png) Python
 
 ### obs
 
