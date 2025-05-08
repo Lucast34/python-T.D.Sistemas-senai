@@ -1,7 +1,13 @@
+NOME = str(input("Digite o seu nome: "))
+EMAIL = str(input("Digite o seu email: "))
+SENHA = int(input("Digite a sua senha:"))
+
+
 user = {
-    'NOME':__nome,
-    'EMAIL':__email,
-    'SENHA':__senha
+    'NOME':NOME,
+    'EMAIL':EMAIL,
+    'SENHA':SENHA
 }
 
-__
+print(f'nome:{user['NOME']}\nemail{user['EMAIL']}\nsenha{user['SENHA']}')
+
