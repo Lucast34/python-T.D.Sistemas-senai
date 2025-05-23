@@ -1,20 +1,16 @@
-# variavel
-multa = 4.0
-
 # input
 
 print("O valor deve ter . em vez de ,")
 
 peso = float(input("Digite o peso >> "))
 
-print(peso)
 
-
-if peso < 50:
+if peso <= 50:
     print("Não houve excesso")
 else:
-    peso = 50 - peso
+    # tirando a sobra com peso excedido
+    peso =  peso - 50
 
-    resultado_multa = peso/multa
+    resultado_multa = 4.00 * peso 
 
-    print("")
+    print("ACIMA DO PESO!!\nA multa foi de: R$",resultado_multa)
