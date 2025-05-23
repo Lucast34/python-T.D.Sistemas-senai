@@ -13,4 +13,4 @@ print("*"*4,"Tabuada do ",num,"*"*4)
 
 while i <= 10:
     print(f'{num}x{i}={num*i}')
-    i= i+1
+    i +=1
