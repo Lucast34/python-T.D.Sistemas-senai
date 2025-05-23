@@ -1,11 +1,9 @@
 from datetime import datetime as dt
 
-anoT = dt.now()
+anoT = dt.now().year
 
-anoF= anoT.year
-
-print(anoF)
+print(anoT)
 
 ano = int(input("Digite seu ano de nascimento >> "))
 
-print(f"Sua idade é {anoF - ano}")
+print(f"Sua idade é {int(anoT) - ano}")
