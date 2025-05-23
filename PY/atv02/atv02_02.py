@@ -4,6 +4,7 @@ print("O valor deve ter . em vez de ,")
 
 peso = float(input("Digite o peso >> "))
 
+# estrutura de decisao
 
 if peso <= 50:
     print("Não houve excesso")
