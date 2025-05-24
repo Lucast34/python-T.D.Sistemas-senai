@@ -3,6 +3,7 @@
 num_maior = 0
 
 # loop 
+# refatorado
 
 for i in range(0,3):
     num = int(input("Digite um numero: "))
