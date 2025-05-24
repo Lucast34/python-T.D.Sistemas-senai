@@ -1,4 +1,4 @@
-# procedimento
+# procedimento(sem retorno)
 def impa_par(n):
     print("É par")if n % 2== 0 else print("É impar")  
 
