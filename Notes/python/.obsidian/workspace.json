@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dicionarios.md",
+                "file": "basico/lista.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dicionarios"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8ede96975f535a4e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eab3386a5800dc03",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "title": "lista"
             }
           }
         ]
@@ -184,9 +168,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "eab3386a5800dc03",
+  "active": "e9438853ddf2d2df",
   "lastOpenFiles": [
-    "dicionarios.md",
-    "Python.md"
+    "basico/loops.md",
+    "basico/variaveis.md",
+    "basico/dicionarios.md",
+    "basico/lista.md",
+    "Python.md",
+    "Poo/POO.md",
+    "basico",
+    "Poo"
   ]
 }
