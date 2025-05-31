@@ -16,7 +16,7 @@ class Cachorro:
         self.idade = idade
         self.cor = cor
     
-    diferentes constructors não é permitido pelo pyhton (ainda),
+    Por enquanto o python não da suporte a mutiplos constructors,
     Porém existe um outra maneira de contornar esse problema. 
     """
 
