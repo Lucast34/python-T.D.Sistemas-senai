@@ -27,6 +27,7 @@ class Dono:
     def mostrar_data(self):
         return f"O usuario {self.nome} entrou no site as {self.date_joined:%d/%m/%y}"
 
+    
     #metodo
     def ativo_inativo(self, simnao):
         # se for True tem que retornar ativo e se for false tem que retornar inativo
