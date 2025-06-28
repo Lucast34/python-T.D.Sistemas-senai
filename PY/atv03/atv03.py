@@ -1,16 +1,16 @@
+# variavel
+i=1
+
 # input
 
-idade = int(input("Digite o sua idade >> "))
+print("*"*4,"Programa de tabuada","*"*4)
 
+num = int(input("Digite um numero: "))
 
-# Estrutura de decisão
-if idade <= 0:
-    print("Valor invalido")
-else:
-    if(idade > 0 and idade < 15):print("Criança")
+print("*"*4,"Tabuada do ",num,"*"*4)
 
-    if(idade >= 15 and idade < 30):print("Jovem")
+# loop 
 
-    if(idade >= 30 and idade < 60):print("Adulto")
-    
-    if(idade >= 60):print("Idoso")
+while i <= 10:
+    print(f'{num}x{i}={num*i}')
+    i +=1
