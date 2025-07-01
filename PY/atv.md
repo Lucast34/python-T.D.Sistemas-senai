@@ -51,5 +51,122 @@ b - Identifique e imprima o maior e o menor número da lista inserida.
 1 - Cadastro de Produto
 Você precisa criar um programa que armazene informações de um produto em um dicionário. As informações devem incluir nome, preço e quantidade em estoque. Depois, o programa deve exibir todas as informações do produto.
 
-2 -Agenda de Contatos
+2 - Agenda de Contatos
 Crie um programa para armazenar números de telefone. O usuário deve poder adicionar novos contatos (nome como chave e número como valor). Depois, o programa deve exibir todos os contatos cadastrados. Obs: O salvamento deverá parar apenas quando o usuário digitar "finalizar"
+
+## atv07 revisão
+
+1 - faça uma calculadora com as 4 operações configuradas ( +,-,*,/)
+
+2 - Programe um algoritmo onde podemos colocar um valor em reais e logo a pós perguntar qual moeda deseja converter ( Dólares, Ienes ou euro) e logo após isso fazermos a conversão
+
+3 - Crie um programa que permita ao usuário adicionar tarefas a uma lista, marcar como concluídas ou remover tarefas
+
+4 - Implemente uma lojinha virtual simples! Onde possamos ter um catálogo com 5 produtos e nesse podemos adicionar ao carrinho ou visualizar-lo. Até chegarmos na finalização do qual mostrará o valor total
+
+5 - aplicação que pegue o número de clientes em uma mesa, o valor total da conta e após isso divida a conta de forma igual a todos os clientes
+
+6 - Sucessor e antecessor, faça uma aplicação que colete um número digitado pelo usuário e logo em seguida mostre em ordem: o numero anterior a ele, o próprio número escolhido e o número sucessor a ele
+
+## atv08 conjuntos
+
+1 - Encontrar alunos que cursam apenas uma disciplina dado as disciplinas:
+-matematica com os nomes dos alunos que fazem Matemática
+-fisica com os nomes dos alunos que fazem Física
+
+Encontre os alunos que fazem apenas uma das disciplinas.
+
+2 - Duas lojas possuem estoques diferentes de produtos. Encontre os produtos disponíveis em ambas e os exclusivos de cada loja.
+
+3 - Faça o jogo da forca em python utilizando o Set() como base!
+
+## atv09 ternario
+
+1 - Escreva um algoritmo que calcule e imprima a tabuada do 8 (1 a 10).
+
+2 - Faça um algoritmo que avalie se o usuario e senha cadastrados e se não tiver, printe uma falha senao printe que deu tudo certo
+(considerar que usuario e senha sejam ''ADM')
+
+## atv10 try
+
+1 - Peça ao usuário dois números e uma operação matemática (+, -, *, /). Execute a operação e trate erros como divisão por zero e operação inválida.
+
+2 - Crie um dicionário com informações sobre um aluno (por exemplo, nome, idade, notas). Em seguida, solicite ao usuário uma chave para acessar no dicionário. Caso a chave não exista, trate o erro e informe quais chaves estão disponíveis.
+
+3 - Solicite ao usuário que insira seu peso e altura. Calcule o IMC, mas trate possíveis erros, como entradas inválidas ou divisões por zero. Garanta que o programa sempre informe o status do processo no finall
+
+4 - Crie um programa que simule um caixa eletrônico. Peça ao usuário um valor a ser sacado e deduza de um saldo inicial. Caso o usuário tente sacar mais do que o saldo ou insira um valor inválido, trate o erro de forma apropriada. Garanta que o saldo atualizado seja sempre exibido no finally.
+
+## atv11 import
+
+1 - (timer)Crie um cronômetro reverso com uma mensagem final personalizada usando o módulo time.
+
+2 - (random)Crie um programa que gere uma agenda semanal aleatória com atividades usando o módulo random.
+
+3 - (calendar)Use o módulo calendar para exibir o calendário completo do ano atual
+
+4 - (random)Use o módulo random para sortear um nome de uma lista de participantes.
+
+## atv12 venv
+
+1 - Crie um ambiente virtual chamado calculadora_bolos e, dentro dele, um programa que calcule a quantidade de ingredientes necessários para assar 5 bolos, a partir de uma receita padrão. A receita padrão é:
+
+Farinha: 200g por bolo
+
+Açúcar: 100g por bolo
+
+Ovos: 2 por bolo
+
+O programa deve exibir a quantidade total de cada ingrediente.
+
+## atv13 gerenciamento de arquivos
+
+1 - Crie um arquivo onde você possa escolher entre fazer cadastro ou login, faça o cadastro salvar as informações em um json e no login que ele realmente verifique se esse usuario existe
+
+## atv14 obj
+
+1 - Crie um class motorista e um class carro, associe o carro ao motorista e possibilite que ele acelere o carro e também acrescente algo ao porta malas
+
+## atv15 revisão
+
+1 - Implemente um sistema de gerenciamento de estoque que inclua classes Produto, Estoque e métodos para adicionar, remover e verificar produtos.  
+
+2 - Crie um sistema de gerenciamento de pedidos para um restaurante. Use classes Pedido, ItemPedido e Cardapio
+
+3 - Crie uma classe Pessoa com os atributos nome e idade. Adicione um método para retornar a data de nascimento.  
+
+4 - Crie uma classe Aluno que tenha os atributos nome, notas (uma lista) e métodos para calcular a média e verificar se o aluno foi aprovado (média >= 7). Todo aluno criado deverá ser adicionado a um Json
+
+## atv_final Prova
+
+1 - Crie uma função chamada classificar_idade que recebe a idade de uma pessoa e retorna:
+
+    "Criança" se a idade for menor que 12 anos.
+    "Adolescente" se a idade estiver entre 12 e 17 anos.
+    "Adulto" se a idade for maior ou igual a 18 anos.
+
+Em seguida, escreva um código que:  Peça ao usuário que insira sua idade e use a função classificar_idade para exibir a classificação.
+
+2 - Escreva um programa para um sistema de controle de estoque de uma loja. O programa deve:Usar um para armazenar os itens no estoque, onde as chaves são os nomes dos produtos e os valores são as quantidades disponíveis.Permitir que o usuário escolha uma das opções:
+
+    Adicionar um novo produto ao estoque.
+    Atualizar a quantidade de um produto existente.
+    Verificar se um produto está disponível (quantidade maior que 0).
+    Continuar exibindo o menu até que o usuário escolha sair.
+
+3 - Crie um jogo simples em Python:Um número secreto entre 1 e 100 é gerado aleatoriamente.O jogador tem 5 tentativas para adivinhar o número.Após cada tentativa, o programa deve informar:
+
+    "Muito alto!" se o palpite for maior que o número.
+    "Muito baixo!" se o palpite for menor que o número.
+    "Parabéns, você acertou!" se o palpite for igual ao número.
+
+Caso o jogador não acerte após 5 tentativas, exiba "Game Over! O número era X".
+Utilize a biblioteca random para gerar o número secreto.
+
+4 - Crie duas classes:
+1 Autor, com os atributos:  Nome, nacionalidade e livros
+2 Livro, com os atributos: titulo, ano e autor
+Depois, escreva um programa que:Crie um autor e dois livros associados a ele.
+Imprima o nome do autor e a lista dos seus livros.
+
+5 - Implemente uma função chamada calculadora que:Receba dois números e uma operação (adição, subtração, multiplicação ou divisão).Retorne o resultado da operação.Trate divisões por zero e exiba uma mensagem apropriada.Salve o histórico dela em um json
