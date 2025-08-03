@@ -2,10 +2,11 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 
-def hello():
+def helloworld():
     return "Hello world"
 
-if __name__ == "__main__":
-    app.run(debug=True,port=8888,threaded=True)
+if  __name__ == '__main__':
+    app.run(host='localhost',port=8888)
+
