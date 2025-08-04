@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python-Crud.md",
+                "file": "python/Poo/CRUD/Python-Crud.md",
                 "mode": "source",
                 "source": false
               },
@@ -186,9 +186,11 @@
   "active": "71d0b79e67f0514a",
   "lastOpenFiles": [
     "python/basico/variaveis.md",
-    "Python-Crud.md",
-    "python/Poo/Crud",
+    "python/Poo/CRUD/Python-Crud.md",
     "python/Python.md",
+    "python/Poo/CRUD",
+    "python/Poo/POO.md",
+    "python/Poo/Crud",
     "python/basico/dicionarios.md",
     "python/basico/lista.md",
     "python/basico/loops.md"
