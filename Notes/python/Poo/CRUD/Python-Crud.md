@@ -14,3 +14,10 @@ if(__name__ == "__main__"):
 The ``carsales.route("/")`` sets route of the site. 
 
 
+This if is verifying the __name__  
+``` python
+if(__name__ == "__main__"):
+	carsales.run()
+```
+
+
